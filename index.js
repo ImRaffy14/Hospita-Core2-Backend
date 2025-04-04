@@ -228,7 +228,7 @@ app.post("/doctorlogin", async (req, res) => {
     };
     
     const mailOptions = {
-        from: "Nodado General Hospital",
+        from: `"Nodado Hospital Core"`,
         to: email,
         subject: 'Your Admin Login Verification Code',
         text: `Your verification code is: ${token}\nThis code will expire in 15 minutes.`
